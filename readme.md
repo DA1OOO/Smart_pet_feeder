@@ -22,7 +22,7 @@ ESP8266 are NOT included)
 ## Software Environment
 - **Arduino IDE 2.0.1**
 - **IntelliJ IDEA Community Edition 2022.1**
-- 
+- **WeChat DevTools 1.06.2210310 Stable**
 
 ## Reference
 - https://zhuanlan.zhihu.com/p/93838734
