@@ -10,9 +10,9 @@ ESP8266 are NOT included)![img.png](sources/img1.png)
 - **Arduino Nano * 1**
 
     ![img_1.png](sources/img_1.png)
-- **ESP8266** (6V, with or without I/O extended board)
+- **ESP8266** (6V, with I/O extended board)
 
-    ![img_5.png](sources/img_5.png)
+  ![img.png](sources/img.png)
 - **2.4GHz USB WiFi LAN adapter * 1**
 - **3V FeLiPO4 re-chargeable battery * 2**
 - **Mini-USB cable * 1**
