@@ -1,0 +1,15 @@
+/* pages/searchresult/searchresult.wxss */
+@import "../../style/weui.wxss";
+
+.item-full-name {
+  width: 90%
+}
+
+#buying-index {
+  font-size: 34rpx;
+  color: #DF3033;
+}
+
+#comments {
+  font-size: 30rpx;
+}

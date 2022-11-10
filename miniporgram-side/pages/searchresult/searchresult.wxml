@@ -1,0 +1,65 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__bd">
+		<view class="weui-cells" style="position: relative; left: -2rpx; top: -15rpx">
+			<view class="weui-cell weui-cell_active" style="position: relative; left: 0rpx; top: -22rpx">
+				<view class="weui-cell__hd" style="position: relative; margin-right: 10px;">
+					<image src="{{imgUrl}}" style="width: 100px; height:100px; display: block;"></image>
+				</view>
+				<view class="weui-cell__bd">
+					<view class="item-full-name">{{itemName}}</view>
+          <view style="font-size: 15px; color: #888;">价格：￥{{price}}</view>
+          <view style="font-size: 15px; color: #888;">店铺：{{shopName}}</view>
+				</view>
+            </view>
+            <view class="weui-cell" style="width: 750rpx; height: 633rpx; display: flex; box-sizing: border-box; left: 0rpx; top: 0rpx">
+                <view class="weui-cell__bd">
+                        <view class="weui-uploader__hd" style="width: 707rpx; height: 89rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+                          <view class="weui-uploader__overview">
+                              <view class="weui-uploader__title">商品评论词云图</view>
+                          </view>
+                          
+                          <view class="weui-uploader__tips">
+                            分析总评论数：{{commentsNum}}
+                          </view>
+                        </view>
+                        <view class="weui-uploader__bd">
+                          <meta name="referrer" content="no-referrer" />
+                          <image src="{{ciyunUrl}}" style="heigt: 350px; width: 698rpx; height: 557rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+                        </view>
+                </view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                        <view class="weui-uploader__hd">
+                          <view class="weui-uploader__overview">
+                              <view class="weui-uploader__title">商品评论情感分析</view>
+                              <button bindtap="commentAnalysis" style="width: 356rpx; height: 72rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">查看可视化结果</button>
+                          </view>
+                          <view class="weui-uploader__tips" id="buying-index">
+                            推荐购买指数：{{rating}}%
+                          </view>
+                        </view>
+                        <view class="weui-uploader__bd">
+                          <!-- <image src="../../images/commentAnalyst.png" style="heigt:400px;width:350px" /> -->
+                          <view>部分评论:</view>
+                          <view wx:for="{{comments}}" id="comments" style="margin-top: 5px; color: #888;">{{item}}</view>
+                        </view>
+                </view>
+            </view>
+            <view class="weui-cell" style="width: 750rpx; height: 131rpx; display: flex; box-sizing: border-box; left: 0rpx; top: 0rpx">
+                <view class="weui-cell__bd">
+                      <view class="weui-uploader__hd">
+                        <view class="weui-uploader__overview">
+                            <!-- <button catchtap="change" wx:if="{{!isClick}}" size="{{primarySize}}" plain="{{plain}}" 
+                                disabled="{{disabled}}"  style="width: 490rpx; height: 69rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"> 收藏商品
+                            </button> -->
+                            <!-- <button wx:else type="primary" size="{{primarySize}}" plain="{{plain}}" 
+                                disabled="{{disabled}}" style="width: 490rpx; height: 69rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"> 收藏成功
+                            </button> -->
+                        </view>
+                      </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

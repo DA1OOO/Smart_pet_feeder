@@ -1,0 +1,23 @@
+<!--pages/searchresult/pages/commentAnalysis/commentAnalysis.wxml-->
+<view class="page" data-weui-theme="{{theme}}" style="background: white">
+    <view class="page__hd" style="width: 750rpx; height: 154rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <view class="page__title" style="width: 1000rpx; height: 71rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">商品评论情感倾向分布直方图</view>
+        <view class="page__desc">Distribution histogram of sentiment tendency in product reviews</view>
+    </view>
+    <view class="page__bd" style="width: 750rpx; height: 654rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <view class="weui-article" style="width: 738rpx; height: 500rpx; display: block; box-sizing: content-box; left: NaNrpx; top: NaNrpx">
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="{{commentAnalysisUrl}}" mode="aspectFit" style="height: 538rpx; width: 714rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" />
+                    </view>
+        </view>
+    </view>
+    <view class="page__bd">
+        
+        <view class="weui-article" style="width: 740rpx; height: 608rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+            <view style="width: 382rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">情感分析评分标准：</view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../../../images/analysisStandard.png" mode="aspectFit" style="height: 244rpx; width: 714rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" />
+                    </view>
+        </view>
+    </view>
+</view>

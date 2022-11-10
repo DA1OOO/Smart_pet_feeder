@@ -1,0 +1,4 @@
+{
+    "average_sentiment":0.8706589602965511,
+    "comments_num":273
+}

@@ -1,0 +1,45 @@
+<view class="page">
+	<view class="page__bd">
+		<view class="weui-panel weui-panel_access">
+			<view class="weui-panel__hd">我的收藏</view>
+			<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="../../../../images/IPadexample.jpg" alt></image> 
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">Apple iPad mini 5</h4>
+						<view class="weui-media-box__desc">Apple iPad mini 5 2019年新款平板电脑 7.9英寸（256G WLAN版/A12芯片/Retina显示屏/MUU32CH/A）深空灰色</view>
+					</view>
+				</a>
+			</view>
+			<view class="weui-panel__ft">
+				<a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+					<view class="weui-cell__bd">查看商品分析结果</view>
+          <text class="weui-badge" style="margin-left: 5px;">8</text>
+					<text class="weui-cell__ft"></text>
+				</a>
+			</view>
+
+      <view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="../../../../images/IPhone11example.jpg" alt></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">Apple iPhone 11</h4>
+						<view class="weui-media-box__desc">Apple iPhone 11 (A2223) 128GB 红色 移动联通电信4G手机 双卡双待</view>
+					</view>
+				</a>
+			</view>
+		</view>
+    <view class="weui-panel__ft">
+				<a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+					<view class="weui-cell__bd">查看商品分析结果</view>
+          <text class="weui-badge" style="margin-left: 5px;">New</text>
+					<text class="weui-cell__ft"></text>
+				</a>
+		</view>
+		
+	</view>
+</view>

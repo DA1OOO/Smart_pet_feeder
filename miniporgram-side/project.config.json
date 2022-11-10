@@ -1,0 +1,120 @@
+{
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "scopeDataCheck": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "uglifyFileName": false,
+    "enhance": true,
+    "showShadowRootInWxmlPanel": true,
+    "useStaticServer": true,
+    "showES6CompileOption": false,
+    "compileHotReLoad": true,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.2",
+  "appid": "wx6ce7f884fc250487",
+  "projectname": "JDCommentsAnalysis",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "我的收藏",
+          "pathName": "pages/moreus/pages/collections/collections",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "个人界面",
+          "pathName": "pages/moreus/moreus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "我的收藏",
+          "pathName": "pages/moreus/pages/collections/collections",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "查询结果",
+          "pathName": "pages/searchresult/searchresult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "关于我们",
+          "pathName": "pages/aboutus/aboutus",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "使用说明",
+          "pathName": "pages/illustrate/illustrate",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

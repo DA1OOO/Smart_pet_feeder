@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view bindtap="moreus">
+  <image class="moreus" src="../../images/gengduo.png" style="position: absolute; left: 636rpx; top: 50rpx; width: 60rpx; height: 57rpx; display: block; box-sizing: border-box"></image>
+</view>
+<view class="container" style="width: 750rpx; height: 598rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+  
+  <view class="page-body">
+    <!--背景图片-->
+    <image class='bg'  src='../../images/bg3.jpg'></image>
+    <form bindsubmit="search">
+
+      <view class="page-sanction" style="width: 540rpx; height: 93rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+        <view class="weui-cells weui-cells_after-title" style="position: relative; left: 8rpx; top: 2rpx; width: 620rpx; height: 86rpx; display: block; box-sizing: border-box">
+          <view class="weui-cell weui-cell_input" style="position: relative; left: -8rpx; top: 158rpx; width: 682rpx; height: 211rpx; display: flex; box-sizing: border-box">
+            <input style="width: 598rpx; height: 176rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"  class="weui-input" name="url" type="text" confirm-type="search" auto-focus placeholder="输入商品链接" maxlength="-1"/>
+          </view>
+        </view>
+
+      </view>
+
+      <view class="page-sanction">
+        <view class="weui-cells__title" style="width: 636rpx; height: 302rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">数据分析可能需要一定的时间，请耐心等待。</view>
+        <button form-type="submit" loading="{{loading}}" hover-class="button-hover" style="position: relative; left: 0rpx; top: -265rpx">分析</button>
+        <view class="fadeIn {{hideLoading ? 'fadeOut' : ''}}" wx:if="{{loading}}">
+          <view class="weui-mask_transparent"></view>
+          <view class="weui-toast">
+            <i class="weui-loading weui-icon_toast"></i>
+            <view class="weui-toast__content">正在查询并分析</view>
+          </view>
+        </view>
+
+        <view class="weui-footer weui-footer_fixed-bottom">
+          <view class="weui-footer__links">
+            <navigator url="/pages/illustrate/illustrate" class="weui-footer__link" style="position: relative; left: -4rpx; top: 0rpx">使用说明</navigator>
+            <navigator url="/pages/aboutus/aboutus" class="weui-footer__link" style="position: relative; left: -4rpx; top: 0rpx">关于我们</navigator>
+          </view>
+          <view class="weui-footer_text" style="width: 750rpx; height: 58rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">Copyright © DA1YAYUAN</view>
+        </view>
+
+      </view>
+    </form>
+    
+  </view>
+</view>

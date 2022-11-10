@@ -1,0 +1,43 @@
+<!--pages/illustrate/illustrate.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title" style="width: 1000rpx; height: 71rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">使用说明</view>
+        <view class="page__desc">Instructions</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article" style="width: 714rpx; height: 374rpx; display: block; box-sizing: content-box; left: NaNrpx; top: NaNrpx">
+            <view class="weui-article__h1">1.复制目标商品链接</view>
+            <view class="weui-article__section">
+                <view class="weui-article__h2"></view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3"></view>
+                    <view class="weui-article__p">
+                        在京东商城中挑选目标商品后，在网页上方复制该商品的网页链接。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../images/instruction_1.png" mode="aspectFit" style="height: 356rpx; width: 707rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h1">2.打开微信小程序，将网址粘贴至搜索框</view>
+                    <view class="weui-article__p">
+                        粘贴目标商品的网页链接后，将其粘贴于搜索框内，并点击查询按钮，等待系统响应。
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../images/instruction_2.png" mode="aspectFit" style="weight: 900px; width: 720rpx; height: 457rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" />
+                    </view>
+                </view>
+                 <view class="weui-article__section">
+                    <view class="weui-article__h1">2.点击查询按钮，等待系统响应</view>
+                    <view class="weui-article__p">
+                        将商品的网页链接复制至搜索框后，点击下方查询按钮。若网址无效请删除后重新输入，若网址有效，则等待系统分析后跳转至结果页。
+                    </view>
+                    <view class="weui-article__p" style="width: 707rpx; height: 375rpx; display: block; box-sizing: content-box; left: NaNrpx; top: NaNrpx">
+                        <image class="weui-article__img" src="../../images/instruction_3.png" mode="aspectFit" style="weight: 900px; width: 718rpx; height: 379rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
