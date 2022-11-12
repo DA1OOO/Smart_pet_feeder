@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/illustrate/illustrate",
+    "pages/aboutus/aboutus",
+    "pages/searchresult/searchresult",
+    "pages/moreus/moreus",
+    "pages/moreus/pages/collections/collections",
+    "pages/logs/logs",
+    "pages/searchresult/pages/commentAnalysis/commentAnalysis"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
