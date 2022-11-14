@@ -1,31 +1,47 @@
 <view class="container">
 	<view class="page-body">
-		<view class="page-section">
-			<view class="page-section-title">
-				<text>Water management\n</text>
-				<text>\n</text>
-			</view>
-			<view class="page-section-spacing">
-				<text>Water volume of water storage tank: \n</text>
-				<text>Water volume of water storage tank: \n</text>
-				<view class="flex-wrp" style="flex-direction:row;">
-					<view class="flex-item demo-text-1"></view>
-					<view class="flex-item demo-text-2"></view>
-					<view class="flex-item demo-text-3"></view>
+		<view class="button-sp-area">
+			<view class="page-section">
+				<view class="page-section-title">
+					<text>\n</text>
+					<text>\n</text>
+					<text>\n</text>
+					<image src="../source/water.png" class="my-icon"></image>
+					<text class="my-title">  Water management\n</text>
+					<text>\n</text>
+				</view>
+				<view class="page-section-spacing">
+					<text class="my-word">Water volume of water storage tank: \n</text>
+					<text class="my-data">83% (4.35kg / 5.00kg)\n</text>
+					<text class="my-word">Water volume of water bowl: \n</text>
+					<text class="my-data">16% (0.4kg / 1.00kg)\n</text>
+					<text>\n</text>
+					<button type="primary" plain="true">Add Water</button>
+					<text>\n</text>
+					<text>\n</text>
+					<text>—————————————————</text>
+					<text>\n</text>
+					<text>\n</text>
+					<text>\n</text>
+					<text>\n</text>
 				</view>
 			</view>
 		</view>
-		<view class="page-section">
-			<view class="page-section-title">
-				<text>Food management\n</text>
+		<view class="button-sp-area">
+			<view class="page-section">
+				<view class="page-section-title">
+					<image src="../source/food.png" class="my-icon"></image>
+					<text class="my-title">  Food management\n</text>
+					<text>\n</text>
+				</view>
+				<text class="my-word">Food volume of food storage tank: \n</text>
+				<text class="my-data">54% (3.26kg / 5.00kg)\n</text>
+				<text class="my-word">Food volume of food bowl: \n</text>
+				<text class="my-data">44% (0.9kg / 1.00kg)\n</text>
 				<text>\n</text>
-			</view>
-			<text>Water volume of water storage tank: \n</text>
-			<text>Water volume of water storage tank: \n</text>
-			<view class="flex-wrp" style="flex-direction:column;">
-				<view class="flex-item flex-item-V demo-text-1"></view>
-				<view class="flex-item flex-item-V demo-text-2"></view>
-				<view class="flex-item flex-item-V demo-text-3"></view>
+				<button type="primary" plain="true">Add Food</button>
+				<view class="flex-wrp" style="flex-direction:column;">
+				</view>
 			</view>
 		</view>
 	</view>

@@ -12,3 +12,27 @@
   width: 300rpx;
   height: 200rpx;
 }
+/* title格式 */
+.my-title{
+	font-family:fantasy;
+	font-size: 50rpx;
+}
+
+.button-sp-area{
+  margin: 0 auto;
+  width: 80%;
+}
+/* 正文文本 */
+.my-word{
+	font-family:fantasy;
+	font-size: 30rpx;
+}
+
+.my-data{
+	font-size: 25rpx;
+}
+
+.my-icon{
+	width: 60rpx;
+  height: 60rpx;
+}
