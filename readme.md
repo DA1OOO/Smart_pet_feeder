@@ -24,5 +24,13 @@ ESP8266 are NOT included)
 - **IntelliJ IDEA Community Edition 2022.1**
 - **WeChat DevTools 1.06.2210310 Stable**
 
+## Hardware Side
+
+## Server Side
+
+## Miniprogram Side
+
+  ![img.png](sources/minipro-img.png)
+
 ## Reference
 - https://zhuanlan.zhihu.com/p/93838734

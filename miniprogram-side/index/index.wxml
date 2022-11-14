@@ -5,7 +5,6 @@
 				<view class="page-section-title">
 					<text>\n</text>
 					<text>\n</text>
-					<text>\n</text>
 					<image src="../source/water.png" class="my-icon"></image>
 					<text class="my-title">  Water management\n</text>
 					<text>\n</text>
@@ -13,13 +12,14 @@
 				<view class="page-section-spacing">
 					<text class="my-word">Water volume of water storage tank: \n</text>
 					<text class="my-data">83% (4.35kg / 5.00kg)\n</text>
+					<text>\n</text>
 					<text class="my-word">Water volume of water bowl: \n</text>
 					<text class="my-data">16% (0.4kg / 1.00kg)\n</text>
 					<text>\n</text>
-					<button type="primary" plain="true">Add Water</button>
+					<button type="primary" plain="true" class="my-button">Add Water</button>
 					<text>\n</text>
 					<text>\n</text>
-					<text>—————————————————</text>
+					<text class="my-gap"> ———————————————————</text>
 					<text>\n</text>
 					<text>\n</text>
 					<text>\n</text>
@@ -36,10 +36,11 @@
 				</view>
 				<text class="my-word">Food volume of food storage tank: \n</text>
 				<text class="my-data">54% (3.26kg / 5.00kg)\n</text>
+				<text>\n</text>
 				<text class="my-word">Food volume of food bowl: \n</text>
 				<text class="my-data">44% (0.9kg / 1.00kg)\n</text>
 				<text>\n</text>
-				<button type="primary" plain="true">Add Food</button>
+				<button type="primary" plain="true" class="my-button">Add Food</button>
 				<view class="flex-wrp" style="flex-direction:column;">
 				</view>
 			</view>

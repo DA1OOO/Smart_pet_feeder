@@ -36,3 +36,13 @@
 	width: 60rpx;
   height: 60rpx;
 }
+
+.my-button{
+	font-family:fantasy;
+	font-size: 30rpx;
+}
+
+.my-gap{
+	color:darkgrey;
+	font-family: fantasy;
+}
