@@ -30,6 +30,10 @@ ESP8266 are NOT included)
 
 ![img.png](sources/img20983.png)
 
+- **ESP8266 Pin Diagram**
+
+![img.png](sources/img343.png)
+
 ## Server Side
 
 ## Miniprogram Side

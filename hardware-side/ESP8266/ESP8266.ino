@@ -23,8 +23,8 @@
 #define versionMark 11244                    //-- Any number, You can modify this line. 
 
 #ifndef STASSID
-#define STASSID "AP1"
-#define STAPSK  "12341234"
+#define STASSID "G11-AP"
+#define STAPSK  "12345678"
 #endif
 
 #define ESP8266I2CAddress 0x66  //-- ESP8266 I2C Address
