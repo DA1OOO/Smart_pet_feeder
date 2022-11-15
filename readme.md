@@ -26,6 +26,10 @@ ESP8266 are NOT included)
 
 ## Hardware Side
 
+- **Transport Model**
+
+![img.png](sources/img20983.png)
+
 ## Server Side
 
 ## Miniprogram Side
