@@ -3,7 +3,7 @@ extern long Get_Weight();
 ///变量定义
 float Weight = 0;
 int HX711_SCK = PD6;   ///     作为输出口
-int HX711_DT= PD5;    ///     作为输入口
+int HX711_DT = PD5;    ///     作为输入口
 long HX711_Buffer = 0;
 long Weight_Maopi = 0, Weight_Shiwu = 0;
  #define GapValue 365       ///该值需校准 每个传感器都有所不同
@@ -19,8 +19,6 @@ pinMode(HX711_DT, INPUT); ///  DT为输入口  ---读取数据
  delay(3000);    ///延时3秒  
  //获取毛皮重量
  Weight_Maopi = HX711_Read(); 
- Serial.print("Maopi=");
- Serial.print(float(Weight_Maopi));
 }
  void loop()    ///  一直循环{}内容  ----- 同while（1）{xxx}
 {
@@ -69,4 +67,3 @@ unsigned long HX711_Read(void) //选择芯片工作方式并进行数据读取
  delayMicroseconds(1);  ////延时 1微秒  
  return(count);     ///返回传感器读取值
 }
-
