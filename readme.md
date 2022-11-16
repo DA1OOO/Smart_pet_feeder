@@ -44,7 +44,7 @@ ESP8266 are NOT included)
 ## Note
 - **Lab 2.2** 
   - **Set Arduino IDE for ESP8266**
-    - File >> Examples >> ESP8266WebServer >> Hello Server ———— ESP8266
+    - File >> Examples >> ESP8266WebServer >> HelloServer ———— ESP8266
 - **Lab 2.4**
   - **Run ESP8266 Web client**
     - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— ESP8266
