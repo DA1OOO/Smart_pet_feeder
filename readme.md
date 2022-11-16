@@ -18,6 +18,7 @@ ESP8266 are NOT included)
 - **2.4GHz USB WiFi LAN adapter × 1**
 - **3V FeLiPO4 re-chargeable battery × 2**
 - **Mini-USB cable × 1**
+- **Micro-USB cable × 1**
 
 ## Software Environment
 - **Arduino IDE 2.0.1**
