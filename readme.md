@@ -41,6 +41,18 @@ ESP8266 are NOT included)
 
  ![img.png](sources/img2232.png)
 
+## Note
+- **Lab 2.2** 
+  - **Set Arduino IDE for ESP8266**
+    - File >> Examples >> ESP8266WebServer >> Hello Server ———— ESP8266
+- **Lab 2.4**
+  - **Run ESP8266 Web client**
+    - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— ESP8266
+- **Lab 2.5**
+  - **Run ESP8266 as an I2C Slave with Nano Master**
+    - OS_LED-Exp2.5              ———— Nano
+    - Exp2.5_given_ESP8266_Slave ———— ESP8266
+
 ## Reference
 - https://zhuanlan.zhihu.com/p/93838734
 - https://blog.csdn.net/qq_43701073/article/details/116059977?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166843153216800182711941%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=166843153216800182711941&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-8-116059977-null-null.142
