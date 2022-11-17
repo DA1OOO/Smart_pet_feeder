@@ -48,12 +48,12 @@ ESP8266 are NOT included)
 
 ## Note
 - **Lab 2.2** 
-  - **Set Arduino IDE for ESP8266**
+  - **Set Arduino IDE for ESP8266** （通过URL访问ESP8266服务器）
     - File >> Examples >> ESP8266WebServer >> HelloServer ———— ESP8266
 - **Lab 2.4**
-  - **Run ESP8266 Web client**
+  - **Run ESP8266 Web client** （通过ESP8266访问内网网页）
     - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— ESP8266
-- **Lab 2.5**
+- **Lab 2.5** （ESP8266与NANO通信）
   - **Run ESP8266 as an I2C Slave with Nano Master**
     - OS_LED-Exp2.5 ———— Nano
     - Exp2.5_given_ESP8266_Slave ———— ESP8266
