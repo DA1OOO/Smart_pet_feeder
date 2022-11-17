@@ -24,11 +24,10 @@ ESP8266 are NOT included)
 - **Mini-USB cable × 1**
 - **Micro-USB cable × 1**
 
-## Software Environment
+## Develop Software
 - **Arduino IDE 2.0.1**
 - **IntelliJ IDEA Community Edition 2022.1**
 - **WeChat DevTools 1.06.2210310 Stable**
-- **JDK 1.8**
 
 ## Hardware Side
 
@@ -42,6 +41,33 @@ ESP8266 are NOT included)
 
 ## Server Side
 
+#### Environment：
+  - JDK1.8
+  - Spring
+  - SpringBoot
+  - Maven
+  - Lombok
+#### Server side interface
+ - **Data input interface** ( HttpMethod = GET )
+```html
+// 传入重量传感器读数
+http://192.168.137.1:8088/data/input?weight=999
+```
+- **Data output interface**
+```html
+// 获取重量传感器读数
+http://192.168.137.1:8088/data/output
+```
+```html
+// 控制硬件端添加水
+http://192.168.137.1:8088/add/water
+```
+```html
+// 控制硬件端加粮
+http://192.168.137.1:8088/add/food
+```
+
+
 ## Miniprogram Side
 
  ![img.png](sources/img2232.png)
@@ -49,14 +75,14 @@ ESP8266 are NOT included)
 ## Note
 - **Lab 2.2** 
   - **Set Arduino IDE for ESP8266** （通过URL访问ESP8266服务器）
-    - File >> Examples >> ESP8266WebServer >> HelloServer ———— ESP8266
+    - File >> Examples >> ESP8266WebServer >> HelloServer ———— `ESP8266`
 - **Lab 2.4**
   - **Run ESP8266 Web client** （通过ESP8266访问内网网页）
-    - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— ESP8266
+    - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— `ESP8266`
 - **Lab 2.5** （ESP8266与NANO通信）
   - **Run ESP8266 as an I2C Slave with Nano Master**
-    - OS_LED-Exp2.5 ———— Nano
-    - Exp2.5_given_ESP8266_Slave ———— ESP8266
+    - OS_LED-Exp2.5 ———— `Nano`
+    - Exp2.5_given_ESP8266_Slave ———— `ESP8266`
 
 ## Reference
 - https://zhuanlan.zhihu.com/p/93838734
