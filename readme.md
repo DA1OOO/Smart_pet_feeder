@@ -17,7 +17,7 @@ ESP8266 are NOT included)
   <img src="sources/img1.png" style="zoom:60%">
 - **Arduino Nano × 1**
 
-- <img src="sources/img_1.png" style="zoom:60%">
+  <img src="sources/img_1.png" style="zoom:60%">
 - **ESP8266 × 1** (6V, with I/O extended board)
 
   <img src="sources/img.png" style="zoom:60%">
