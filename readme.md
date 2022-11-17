@@ -1,5 +1,9 @@
 # Smart Pet Feeder
 
+## Introduction
+
+> Use miniprogram to control the feeding and water adding of smart pet feeder through network, monitor the weight of grain storage bin, water storage bin, food bowl and water bowl, and remind users when there is a shortage of water or food.
+
 ## Hardware Materials
 - **Electronic scale, weight sensor × 1** (3.3V, HX711AD, Digitals)
 
