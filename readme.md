@@ -30,7 +30,7 @@ ESP8266 are NOT included)
 - **Micro-USB cable × 1**
 - **Connected board**
 
-  <img src="sources/img232344.png" style="zoom:11%">
+  <img src="sources/img232344.png" style="zoom:8%">
 
 ## Develop Software
 - **Arduino IDE 2.0.1**
