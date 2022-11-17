@@ -24,6 +24,7 @@ ESP8266 are NOT included)
 - **Arduino IDE 2.0.1**
 - **IntelliJ IDEA Community Edition 2022.1**
 - **WeChat DevTools 1.06.2210310 Stable**
+- **JDK 1.8**
 
 ## Hardware Side
 
@@ -50,7 +51,7 @@ ESP8266 are NOT included)
     - File >>> Examples >>> ESP8266HTTPClient >>> BasicHttpClient ———— ESP8266
 - **Lab 2.5**
   - **Run ESP8266 as an I2C Slave with Nano Master**
-    - OS_LED-Exp2.5              ———— Nano
+    - OS_LED-Exp2.5 ———— Nano
     - Exp2.5_given_ESP8266_Slave ———— ESP8266
 
 ## Reference
