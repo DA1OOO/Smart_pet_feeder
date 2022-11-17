@@ -48,12 +48,12 @@ ESP8266 are NOT included)
   - Maven
   - Lombok
 #### Server side interface
- - **Data input interface** ( HttpMethod = GET )
+ - **Data input interface** ( HttpRequestMethod = GET )
 ```html
 // 传入重量传感器读数
 http://192.168.137.1:8088/data/input?weight=999
 ```
-- **Data output interface**
+- **Data output interface** ( HttpRequestMethod = GET )
 ```html
 // 获取重量传感器读数
 http://192.168.137.1:8088/data/output
