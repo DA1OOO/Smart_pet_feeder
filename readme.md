@@ -29,7 +29,9 @@ ESP8266 are NOT included)
 - **Mini-USB cable × 1**
 - **Micro-USB cable × 1**
 - **Connected board**
+
   <img src="sources/img232344.png" style="zoom:11%">
+
 ## Develop Software
 - **Arduino IDE 2.0.1**
 - **IntelliJ IDEA Community Edition 2022.1**
