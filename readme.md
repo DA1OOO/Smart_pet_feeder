@@ -4,6 +4,8 @@
 
 > Use miniprogram to control the feeding and water adding of smart pet feeder through network, monitor the weight of grain storage bin, water storage bin, food bowl and water bowl, and remind users when there is a shortage of water or food.
 
+<img src="sources/img232344.png" style="zoom:11%">
+
 ## Hardware Materials
 - **Electronic scale, weight sensor × 1** (3.3V, HX711AD, Digitals)
 
@@ -12,13 +14,13 @@
 (6V, with  16-key keypad and LCD display. Nano and
 ESP8266 are NOT included)
 
-  ![img.png](sources/img1.png)
+  <img src="sources/img1.png" style="zoom:60%">
 - **Arduino Nano × 1**
 
-  ![img_1.png](sources/img_1.png)
+- <img src="sources/img_1.png" style="zoom:60%">
 - **ESP8266 × 1** (6V, with I/O extended board)
 
-  ![img.png](sources/img.png)
+  <img src="sources/img.png" style="zoom:60%">
 - **2.4GHz USB WiFi LAN adapter × 1**
 - **3V FeLiPO4 re-chargeable battery × 2**
 - **Mini-USB cable × 1**
@@ -41,7 +43,7 @@ ESP8266 are NOT included)
 
 ## Server Side
 
-#### Environment：
+#### Environment
   - JDK1.8
   - Spring
   - SpringBoot
@@ -70,7 +72,7 @@ http://192.168.137.1:8088/add/food
 
 ## Miniprogram Side
 
- ![img.png](sources/img2232.png)
+ <img src="sources/img2232.png" style="zoom:80%">
 
 ## Note
 - **Lab 2.2** 
