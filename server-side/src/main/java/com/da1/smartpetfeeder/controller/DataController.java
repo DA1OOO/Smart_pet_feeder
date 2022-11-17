@@ -21,6 +21,7 @@ public class DataController {
     @ResponseBody
     public Boolean getData(@RequestParam(value = "weight", required = true) String weight) {
         dataEntity.setWeight(Integer.parseInt(weight));
+        System.out.println(weight);
         return Boolean.TRUE;
     }
 

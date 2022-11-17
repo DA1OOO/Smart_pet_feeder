@@ -32,7 +32,8 @@ void setup() {
   }
 
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("SSID", "PASSWORD");
+  // 本地网络账户，密码  
+  WiFiMulti.addAP("G11-AP", "12345678");
 
 }
 
@@ -43,15 +44,18 @@ void loop() {
     WiFiClient client;
 
     HTTPClient http;
-
+    
     Serial.print("[HTTP] begin...\n");
-    if (http.begin(client, "http://jigsaw.w3.org/HTTP/connection.html")) {  // HTTP
+    // 服务器IP
+    if (http.begin(client, "http://192.168.137.1:8088/data/input?weight=10")) {  // HTTP
 
 
       Serial.print("[HTTP] GET...\n");
       // start connection and send HTTP header
       int httpCode = http.GET();
-
+      Serial.print("[HTTP] Http Code: ");
+      Serial.print(httpCode);
+      Serial.print("\n");
       // httpCode will be negative on error
       if (httpCode > 0) {
         // HTTP header has been send and Server response header has been handled
